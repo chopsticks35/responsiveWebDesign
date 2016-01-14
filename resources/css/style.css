@@ -45,10 +45,16 @@ section {
     padding: 80px 0;
 }
 
-h1,
-h2 {
+.box {
     
-   
+    padding: 1%;
+}
+
+
+h1,
+h2,
+h3 {
+    
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -84,6 +90,22 @@ h2:after {
     content: " ";
     margin-top: 30px;
     
+}
+
+h3 {
+    
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*paragraphs*/
+
+.long-text {
+    
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
 }
 
 nav {
@@ -127,5 +149,45 @@ nav ul li a:active {
     border: 1px solid #ad580c;
     color: #555;
 }
+
+.pic {
+    
+    list-style: none;
+    margin-top: 15px;s
+}
+
+ul.pic li {
+    
+    display:inline;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    
+}
+
+ul.pic li img {
+    
+    width: 23%;
+    height:auto;
+    margin: 0 0 5px;
+ 
+}
+
+.copyright {
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #17ce1e;
+    font-size: 1em;
+}
+
+/*media queries*/
+
+@media
+
 
 
