@@ -16,11 +16,6 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
-.row {
-    
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 header {
     
@@ -39,16 +34,56 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.row {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    
+    padding: 80px 0;
+}
+
+h1,
+h2 {
+    
+   
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
 h1 {
     
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 4px;
+}
+    
+    
+h2 {
+  
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align:center;
+    margin-bottom: 30px;
+    
+}
+
+h2:after {
+    
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin:  0 auto;
+    background-color: #ad580c;
+    content: " ";
+    margin-top: 30px;
+    
 }
 
 nav {
