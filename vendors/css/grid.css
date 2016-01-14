@@ -1,7 +1,7 @@
 /*  SECTIONS  ============================================================================= */
 
 .section {
-/*	clear: both;*/
+	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
@@ -12,7 +12,6 @@
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-/*
 .row:before,
 .row:after {
     content:"";
@@ -21,7 +20,6 @@
 .row:after {
     clear:both;
 }
-*/
 
 /*  GRID COLUMN SETUP   ==================================================================== */
 
@@ -38,7 +36,7 @@
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		/*margin: 1% 0 1% 0%;*/
+		margin: 1% 0 1% 0%;
         margin: 0;
 	}
 }
